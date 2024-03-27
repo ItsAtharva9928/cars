@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f5f5f5;
+        }
+        header {
+          background-color: #333;
+          color: #fff;
+          padding: 20px 0;
+          text-align: center;
+        }
+        h1 {
+          margin: 0;
+          font-size: 2em;
+        }
+        .container {
+          max-width: 1200px;
+          margin: 20px auto;
+          padding: 0 20px;
+        }
+        .car {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin-top: 20px;
+        }
+        .car-item {
+          width: 300px;
+          margin: 10px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          overflow: hidden;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease;
+        }
+        .car-item:hover {
+          transform: translateY(-5px);
+        }
+        .car-item img {
+          width: 100%;
+          height: auto;
+          border-bottom: 2px solid #333;
+        }
+        .car-details {
+          padding: 15px;
+          background-color: #fff;
+        }
+        .car-name {
+          font-weight: bold;
+          font-size: 1.2em;
+          margin-bottom: 10px;
+          color: #333;
+        }
+        .car-description {
+          font-size: 0.9em;
+          color: #555;
+          margin-bottom: 10px;
+        }
+        .car-specs {
+          font-size: 0.9em;
+          color: #777;
+          margin-bottom: 10px;
+        }
+        .car-price {
+          font-weight: bold;
+          font-size: 1.1em;
+          color: #27ae60;
+        }
+        .car-image {
+            display: block;
+            width: 60%;
+            margin-right: auto;
+            margin-left: auto;
+
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <h1>Toyota Supra</h1>
+      </header>
+    <div class="container">
+        <img class="car-image" src="supra.jpg" alt="Toyota Supra mk4">
+        <div class="car-details">
+            <h2 class="car-name">Toyota Supra mk4</h2>
+            <p class="car-description">"Unleash pure adrenaline with every throttle: the Supra MK4, an icon of power and precision."</p>
+            <p class="car-specs"><strong>Engine:</strong> 3.0L twin-turbocharged inline-6</p>
+            <p class="car-specs"><strong>Horsepower:</strong> 320 hp</p>
+            <p class="car-specs"><strong>0-60 mph:</strong> 4.6 seconds</p>
+            <p class="car-specs"><strong>Top Speed:</strong> 155 mph</p>
+            <p class="car-price">Price: $50,945</p>
+        </div>
+    </div>
+</body>
+</html>
